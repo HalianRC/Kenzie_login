@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  background-color: #adb5bd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-login {
+  border: 1px solid;
+  border-radius: 20px;
+  width: 600px;
+  height: 800px;
+  background-color: #212529c5;
+  box-shadow: 10px 10px 13px 1px rgba(0, 0, 0, 0.75);
+}
+
+.logo-kenzie {
+  padding: 50px 150px;
+}
+
+.logo-kenzie img {
+  text-align: center;
+  width: 300px;
+  height: 103px;
+  filter: saturate(150%);
+}
+
+form {
+  color: white;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.726);
+  text-align: center;
+  font-size: 25px;
+}
+
+input {
+  border: 2px solid;
+  width: 250px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: grey;
+  box-shadow: -1px 10px 80px 6px rgba(0, 0, 0, 0.75);
+}
+
+.senha {
+  margin-top: 30px;
+}
+
+p {
+  color: white;
+  font-size: 18px;
+}
+
+.redes-sociais img {
+  margin: 30px 20px;
+  width: 50px;
+  height: 50px;
+  filter: saturate(90%);
+}
+
+.redes-sociais {
+  text-align: center;
+}
+
+.kenzie-white {
+  text-align: center;
+}
+
+.kenzie-white img {
+  margin: 30px;
+  width: 150px;
+  height: 150px;
+}
